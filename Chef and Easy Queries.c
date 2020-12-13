@@ -1,4 +1,6 @@
 /*
+https://www.codechef.com/problems/CHEFEZQ
+
 Chef and Easy Queries Problem Code: CHEFEZQ
 
 Chef published a blog post, and is now receiving many queries about it. On day i, he receives Qi queries. But Chef can answer at most k queries in a single day.
