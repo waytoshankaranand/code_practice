@@ -1,4 +1,5 @@
 #include <iostream>
+//#include<mutex>
 using namespace std;
 
 class singlton
@@ -13,9 +14,12 @@ class singlton
     public:
     static singlton *getInstance()//static function can access only static data members.
     {
+	   // mutex m;
+	   // m.lock();
         if(!instance)
             instance=new singlton;
         return instance;
+	    //m.unlock();
     }
     
     void setData(int value)
